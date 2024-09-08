@@ -4,19 +4,19 @@ let dados = [
         titulo: "Tudo sobre Front-End",
         descricao: "Salários, o que estudar e dicas para carreira.",
         link: "https://www.youtube.com/watch?v=8xo1FID4TqU",
-        tags: ["dicas", "dicas de estudo"]
+        tags: ["dica", "dicas", "dicas de estudo"]
     },
     {
         titulo: "Caminhos para ser um Dev Front-End.",
         descricao: "Tecnologias e as tendências para quem vai começar no Front-End",
         link: "https://www.youtube.com/watch?v=30nlBGjPRYM&t=13s",
-        tags: ["dicas", "dicas de estudo"]
+        tags: ["dica", "dicas", "dicas de estudo"]
     },
     {
         titulo: "Guia de carreira Front-end",
         descricao: "O que é front-end e como seguir nessa área da tecnologia, um Guia de Estudos do iniciante ao avançado.",
         link: "https://www.youtube.com/watch?v=fpth65ts3cw&t=153s",
-        tags: ["dicas", "dicas de estudo"]
+        tags: ["dica", "dicas", "dicas de estudo"]
     },
     {
         titulo: "HTML",
