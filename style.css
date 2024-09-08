@@ -1,0 +1,122 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-image: linear-gradient(rgba(73, 0, 162, 0.5), rgba(185, 108, 215, 0.5)), url(img/fundo.jpg); /* Adiciona opacidade à imagem de fundo */
+    background-size: cover; /* Garante que a imagem de fundo cubra toda a área do body */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    background-attachment: fixed; /* Fixa a imagem de fundo ao rolar a página */
+
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 50px; /* Define o tamanho da fonte */
+    color: #ffffff; /* Define a cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Define o espaçamento entre as letras */
+    font-weight: 900; /* Define a espessura da fonte */
+}
+
+/* Estiliza os parágrafos */
+h3 {
+    font-family: 'Times New Roman', Times, serif; /* Define a fonte dos parágrafos */
+    color: #ffffff; /* Define a cor do texto */
+    font-weight: 900; /* Define a espessura da fonte */
+    font-size: 20px; /* Define o tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Define o espaçamento abaixo de cada seção */
+}
+
+p{
+    color: #ffffff;
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Define a largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Define o espaçamento interno dos inputs */
+    border-radius: 1.5rem; /* Define bordas arredondadas nos inputs */
+    margin-bottom: 1rem; /* Define o espaçamento abaixo dos inputs */
+    color: #45474B; /* Define a cor do texto dos inputs */
+    font-size: 1rem; /* Define o tamanho da fonte dos inputs */
+    box-sizing: border-box; /* Inclui padding e borda na largura total do input */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Define o espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Define bordas arredondadas nos botões */
+    background-color: #560097; /* Define a cor de fundo do botão */
+    color: #F5F7F8; /* Define a cor do texto do botão */
+    font-size: 1rem; /* Define o tamanho da fonte do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Define a largura máxima da caixa de resultados */
+    margin-top: 1rem; /* Define o espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Define o espaçamento interno da caixa de resultados */
+    border-radius: 0.6rem; /* Define bordas arredondadas na caixa de resultados */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #ffffff; /* Define a cor de fundo dos itens de resultado */
+    border-radius: 30px; /* Define bordas arredondadas nos itens de resultado */
+    padding: 1rem; /* Define o espaçamento interno dos itens de resultado */
+    margin-bottom: 1rem; /* Define o espaçamento abaixo dos itens de resultado */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve aos itens de resultado */
+    width: 100%; /* Garante que o item use a largura disponível */
+    box-sizing: border-box; /* Inclui padding e borda na largura total do item */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Define o tamanho da fonte dos títulos */
+    color: #a136ff; /* Define a cor do texto dos títulos */
+    margin: 0; /* Remove margens extras ao redor dos títulos */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #560097; /* Define a cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Define a cor do texto das descrições */
+    margin: 0.5rem 0; /* Define a margem acima e abaixo das descrições */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: linear-gradient(rgba(77, 0, 166, 0.5), rgba(194, 94, 233, 0.5)),; /* Define a cor de fundo do rodapé e Adiciona opacidade*/
+    color: #ffffff; /* Define a cor do texto do rodapé */
+    text-align: center; /* Alinha o texto ao centro no rodapé */
+    padding: 0; /* Remove o espaçamento interno do rodapé */
+    width: 100%; /* Define a largura total do rodapé */
+    position: fixed; /* Posiciona o rodapé de forma fixa na parte inferior da página */
+    bottom: 0; /* Alinha o rodapé ao fundo da página */
+    font-size: 15px; /* Define o tamanho da fonte do rodapé */
+}
