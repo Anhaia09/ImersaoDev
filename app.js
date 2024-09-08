@@ -5,7 +5,7 @@ function pesquisar() {
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
 
     // se campoPesquisa for uma string sem nada
-    if (!campoPesquisa) {
+    if (campoPesquisa ==" " || !campoPesquisa) {
         section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar uma opção de pesquisa.</p>";
         return;
     }
