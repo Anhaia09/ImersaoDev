@@ -1,7 +1,7 @@
 # Busca para Conteúdo de Front-End  🖥️✨
 
 ## Descrição 💼
-Essa aplicação funciona como um motor de busca personalizado para desenvolvedores Front-end. Ela permite realizar pesquisas por tópicos específicos, como "React", "CSS" ou "JavaScript", retornando resultados relevantes como tutoriais, artigos e dicas.
+Essa aplicação funciona como um motor de busca personalizado para desenvolvedores Front-end. Ela permite realizar pesquisas por tópicos específicos, como "React", "CSS" ou "JavaScript", retornando resultados relevantes como cursos, principais linguagens e dicas.
 
  ## Funcionamento 🛠️
 * **Interface Intuitiva:** Possui um campo de pesquisa simples para facilitar a interação do usuário.
